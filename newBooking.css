@@ -1,0 +1,16 @@
+body{
+    margin:0px;
+}
+
+header{
+    position: fixed;
+    background-color: hsl(213, 100%, 50%);
+}
+
+header h1{
+    padding:40px;
+}
+main{
+    background-color: rgb(94, 207, 255);
+}
+

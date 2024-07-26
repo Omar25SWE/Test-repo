@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(127, 127, 127);
+}
+
+.container{
+    width:350px;
+    height:400px;
+    background-color: white;
+    margin:0 auto;
+    margin-top:100px;
+    border-radius: 20px;
+    
+}
+#newBooking{
+    background-color: hsl(191, 72%, 79%);
+    color:blue;
+    display: inline-block;
+    position: relative;
+    border:2px solid black;
+    border-radius:10px;
+    margin-top:70px;
+    margin-left: 30%;
+}
+
+#newBooking h2{
+    padding:5px;
+}
+
+#editBooking{
+    background-color: hsl(191, 72%, 79%);
+    color:blue;
+    display: inline-block;
+    border:2px solid black;
+    border-radius:10px;
+    margin-top:70px;
+    margin-left: 30%;
+}
+
+#editBooking h2{
+    padding:5px;
+}
+
+.container a{
+    text-decoration: none;
+}
+
+.container #newBooking:hover{
+    background-color: hsl(191, 100%, 66%);
+    color:black;
+}
+
+.container #newBooking:active{
+    background-color: hsl(0, 0%, 100%);
+    color:rgb(0, 0, 0);
+}
+
+.container #editBooking:hover{
+    background-color: hsl(191, 100%, 66%);
+    color:black;
+}
+
+.container #editBooking:active{
+    background-color: hsl(0, 0%, 100%);
+    color:black;
+}
